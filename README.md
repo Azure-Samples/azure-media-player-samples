@@ -34,11 +34,12 @@ You can use Azure Media Player to stream videos from Azure Media Services. The s
 
 ## Sample Listing
 
-| Type | Sample Name | Programmatic via JavaScript | Static via HTML5 | Description |
+| Type | Sample Name | Dynamic | Static | Description |
 |-------------|-------------|-------------|-------------|-------------|
-| Basic | Set Source | Dynamic: azure-media-player-samples-dynamic_setsource.html | Static: azure-media-player-samples-videotag_setsource.html) | Playback unprotected content. |
-| Features | VOD Ad insertion (VAST) | Dynamic: azure-media-player-samples-dynamic_vast_ads_vod.html) | N/A | Insert pre- mid- and post- roll VAST ads into a VOD asset. |
-| | Playback Speed | Dynamic: azure-media-player-samples-dynamic_playback_speed.html | N/A |  Enables viewers to control what speed at which they're watching their video. |
+| Basic | Set Source | azure-media-player-samples-dynamic_setsource.html | azure-media-player-samples-videotag_setsource.html) | Playback unprotected content. |
+| Features | VOD Ad insertion (VAST) | azure-media-player-samples-dynamic_vast_ads_vod.html | N/A | Insert pre- mid- and post- roll VAST ads into a VOD asset. |
+| | Playback Speed | azure-media-player-samples-dynamic_playback_speed.html | N/A |  Enables viewers to control what speed at which they're watching their video. |
+| | AMP Flush Skin | azure-media-player-samples-dynamic_flush_skin.html| azure-media-player-samples-videotag_flush_skin.html | Enables new AMP skin. **Please note: AMP flush is only supported in AMP versions 2.1.0+** |
 
 ## Prerequisites
 
