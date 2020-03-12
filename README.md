@@ -37,7 +37,6 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 
 ## Sample Listing
 
-[!div class="mx-tdBreakAll"]
 | Type | Sample Name | Description | Dynamic | Static |
 |-------------|-------------|-------------|-------------|-------------|
 | **Basic** | Set Source | Playback unprotected content | azure-media-player-samples-dynamic_setsource.html | azure-media-player-samples-videotag_setsource.html |
@@ -50,13 +49,13 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 | | Progressive Video MP4 | Playback of progressive audio MP4 | azure-media-player-samples-dynamic_progressiveVideo.html | azure-media-player-samples-videotag_progressiveVideo.html |
 | | Progressive Audio MP3 | Playback of progressive audio MP3 | azure-media-player-samples-dynamic_progressiveAudio.html | azure-media-player-samples-videotag_progressiveAudio.html |
 | | DD+ | Playback of content with DD+ audio | azure-media-player-samples-dynamic_dolbyDigitalPlus.html | N/A |
-| **Options** | Heuristic Profile | Changing the heuristics profile | azure-media-player-samples-dynamic_heuristicsProfile.html) | azure-media-player-samples-videotag_heuristicsProfile.html |
+| **Options** | Heuristic Profile | Changing the heuristics profile | azure-media-player-samples-dynamic_heuristicsProfile.html | azure-media-player-samples-videotag_heuristicsProfile.html |
 | | Localization | Setting localization | azure-media-player-samples-dynamic_localization.html | azure-media-player-samples-videotag_localization.html |
 | | Audio Tracks Menu |  Options to show how to display audio tracks menu on the default skin | azure-media-player-samples-dynamic_multiAudio.html | Static: azure-media-player-samples-videotag_multiAudio.html|
 | | Hotkeys |  This sample shows how to configure which hotkeys are enabled in the player | azure-media-player-samples-dynamic_hotKeys.html">Dynamic </a> | azure-media-player-samples-videotag_hotKeys.html |
 | **Events, Logging and Diagnostics** | Register Events | Playback with event listeners | azure-media-player-samples-dynamic_registerEvents.html | N/A |
 | | Logging | Turning on verbose logging to console | azure-media-player-samples-dynamic_logging.html | azure-media-player-samples-videotag_logging.html |
-| | Diagnostics | Getting diagnostic data. This sample only works on some techs | azure-media-player-samples-dynamic_diagnostics.html) | N/A |
+| | Diagnostics | Getting diagnostic data. This sample only works on some techs | azure-media-player-samples-dynamic_diagnostics.html | N/A |
 | **AES** | AES no token | Playback of AES content with no token | azure-media-player-samples-dynamic_aes_notoken.html | azure-media-player-samples-videotag_aes_notoken.html|
 | | AES token | Playback of AES content with token | azure-media-player-samples-dynamic_aes_token.html | azure-media-player-samples-videotag_aes_token.html |
 | | AES HLS proxy simulation | Playback of AES content with token, showing a proxy for HLS so that token can be used with iOS devices | azure-media-player-samples-dynamic_aes_token_withHLSProxy.html | azure-media-player-samples-videotag_aes_token_withHLSProxy.html |
@@ -68,13 +67,11 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 | | PlayReady token force Silverlight | Playback of PlayReady content with token, forcing silverlightSS tech | azure-media-player-samples-dynamic_playready_token_forceSilverlight.html | videotag_playready_token_forceSilverlight.html |
 | **Protocol and Tech** | Change techOrder |  Changing the tech order | azure-media-player-samples-dynamic_techOrder.html | videotag_techOrder.html |
 | | Force MPEG-DASH only in UrlRewriter | Playback of unprotected content only using the DASH protocol | azure-media-player-samples-dynamic_forceDash.html | videotag_forceDash.html |
-| | Exclude MPEG-DASH in UrlRewriter | Playback of unprotected content only using the Smooth and HLS protocols | azure-media-player-samples-dynamic_forceNoDash.html) | videotag_forceNoDash.html |
+| | Exclude MPEG-DASH in UrlRewriter | Playback of unprotected content only using the Smooth and HLS protocols | azure-media-player-samples-dynamic_forceNoDash.html | videotag_forceNoDash.html |
 | | Multiple delivery policy | Setting the source with content that has multiple delivery policies from Azure Media Services | azure-media-player-samples-dynamic_multipleDeliveryPolicy.html | videotag_multipleDeliveryPolicy.html |
 | **Programatically Select** | Select text track | Selecting a WebVTT track from the from the track list | azure-media-player-samples-dynamic_selectTextTrack.html | N/A |
 | | Select bitrate | Selecting a bitrate from the list of bitrates *This sample only works on some techs* | azure-media-player-samples-dynamic_selectBitrate.html | N/A |
 | | Select audio stream | Selecting a Audio Stream from the list of available audio streams *This sample only works on some techs.* | azure-media-player-samples-dynamic_selectAudioStream.html | N/A |
-
-
 
 ## Prerequisites
 
