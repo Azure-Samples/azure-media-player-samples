@@ -30,7 +30,7 @@ Outline the file contents of the repository. It helps users navigate the codebas
 
 You can use Azure Media Player to stream videos from Azure Media Services. The samples in this set include basic to advanced configurations (listed below.)
 
-<iframe src="html/azure-media-player--samples-dynamic_setsource.html" width="640" height="320" allowFullScreen="true" frameBorder="0"></iframe>
+<iframe src="https://github.com/Azure-Samples/azure-media-player-samples/blob/master/html/azure-media-player-sample-dynamic-setsource.html" width="640" height="320" allowFullScreen="true" frameBorder="0"></iframe>
 
 ## Sample Listing
 
