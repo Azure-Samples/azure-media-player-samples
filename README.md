@@ -36,7 +36,7 @@ You can use Azure Media Player to stream videos from Azure Media Services. The s
 
 | Sample Name | Programmatic via JavaScript | Static via HTML5 | Description |
 |-------------|-------------|-------------|-------------|
-|\4 Basic |
+|\4. Basic |
 | Set Source | Dynamic: azure-media-player-samples-dynamic_setsource.html | Static: azure-media-player-samples-videotag_setsource.html) | Playback unprotected content. |
 
 ## Prerequisites
