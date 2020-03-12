@@ -39,10 +39,16 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 
 | Type | Sample Name | Dynamic | Static | Description |
 |-------------|-------------|-------------|-------------|-------------|
-| Basic | Set Source | [azure-media-player-samples-dynamic_setsource.html](html/azure-media-player-samples-dynamic_setsource.html) | [azure-media-player-samples-videotag_setsource.html](azure-media-player-samples-videotag_setsource.html) | Playback unprotected content. |
+| Basic | Set Source | azure-media-player-samples-dynamic_setsource.html | azure-media-player-samples-videotag_setsource.html | Playback unprotected content. |
 | Features | VOD Ad insertion (VAST) | azure-media-player-samples-dynamic_vast_ads_vod.html | N/A | Insert pre- mid- and post- roll VAST ads into a VOD asset. |
 | | Playback Speed | azure-media-player-samples-dynamic_playback_speed.html | N/A |  Enables viewers to control what speed at which they're watching their video. |
 | | AMP Flush Skin | azure-media-player-samples-dynamic_flush_skin.html| azure-media-player-samples-videotag_flush_skin.html | Enables new AMP skin. **Please note: AMP flush is only supported in AMP versions 2.1.0+** |
+| | Captions and Subtitles| azure-media-player-samples-dynamic_webvtt.html | azure-media-player-samples-videotag_webvtt.html | Playback with WebVTT subtitles.|
+| | Live CEA 708 Captions | azure-media-player-samples-dynamic_live_captions.html| N/A | Playback with live CEA 708 inbound captions.|
+| | Streaming with Progressive Fallback | azure-media-player-samples-dynamic_progressiveFallback.html) | azure-media-player-samples-videotag_progressiveFallback.html | Basic setup of adaptive playback with fallback for progressive if streaming not supported on platform. |
+| | Progressive Video MP4 | azure-media-player-samples-dynamic_progressiveVideo.html | azure-media-player-samples-videotag_progressiveVideo.html | Playback of progressive audio MP4. |
+| | Progressive Audio MP3 | azure-media-player-samples-dynamic_progressiveAudio.html | azure-media-player-samples-videotag_progressiveAudio.html | Playback of progressive audio MP3. |
+| | DD+ | azure-media-player-samples-dynamic_dolbyDigitalPlus.html | N/A | Playback of content with DD+ audio. |
 
 ## Prerequisites
 
