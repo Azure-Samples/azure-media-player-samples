@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Azure Media Player</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--*****START OF Azure Media Player Scripts*****-->
+        <!--Note: DO NOT USE the "latest" folder in production. Replace "latest" with a version number like "1.0.0"-->
+        <!--EX:<script src="//amp.azure.net/libs/amp/1.0.0/azuremediaplayer.min.js"></script>-->
+        <!--Azure Media Player versions can be queried from //aka.ms/ampchangelog-->
+    <link href="//amp.azure.net/libs/amp/latest/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+    <script src="//amp.azure.net/libs/amp/latest/azuremediaplayer.min.js"></script>
+    <!--*****END OF Azure Media Player Scripts*****-->
+
+</head>
+<body style="margin:0px">
+    <h1>Sample: Logging Events</h1>
+    <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" tabindex="0"></video>
+    <textarea id="techLog" style="width:640px" rows="10"></textarea>
+    <br />
+    <textarea id="txtLog" style="width:640px" rows="10"></textarea>
+    <script>
+
+        var myOptions = {
+            autoplay: true,
+            controls: true,
+            width: "640",
+            height: "400",
+            poster: ""
+        };
+
+        var myPlayer = amp("azuremediaplayer", myOptions, function () {
+            //'this' refers to the player instance in the ready function
+        });
+        //Register for events after intialization not in Ready function to ensure all event are captured
+        myPlayer.addEventListener(amp.eventName.volumechange, _ampEventHandler);
+        myPlayer.addEventListener(amp.eventName.ended, _ampEventHandler);
+        myPlayer.addEventListener(amp.eventName.timeupdate, _ampEventHandler);
+
+        myPlayer.addEventListener(amp.eventName.pause, _ampEventHandler);
+        myPlayer.addEventListener(amp.eventName.play, _ampEventHandler);
+        myPlayer.addEventListener(amp.eventName.playing, _ampEventHandler);
+        myPlayer.addEventListener(amp.eventName.seeking, _ampEventHandler);
+        myPlayer.addEventListener(amp.eventName.seeked, _ampEventHandler);
+
+        myPlayer.addEventListener(amp.eventName.loadstart, _ampEventHandler);
+        myPlayer.addEventListener(amp.eventName.loadedmetadata, _ampEventHandler);
+        myPlayer.addEventListener(amp.eventName.loadeddata, _ampEventHandler);
+        myPlayer.addEventListener(amp.eventName.fullscreenchange, _ampEventHandler);
+
+        myPlayer.addEventListener(amp.eventName.waiting, _ampEventHandler);
+        myPlayer.addEventListener(amp.eventName.canplaythrough, _ampEventHandler);
+        myPlayer.addEventListener(amp.eventName.error, _ampEventHandler);
+        myPlayer.addEventListener(amp.eventName.loadedmetadata, function () {
+            document.getElementById("techLog").innerText = "user-agent: " + navigator.userAgent + "\n\n" + "tech:       " + myPlayer.currentTechName() + "\n\n" + "mime:       " + myPlayer.currentType();
+        });
+
+
+        myPlayer.src([{ src: "//amssamples.streaming.mediaservices.windows.net/3b970ae0-39d5-44bd-b3a3-3136143d6435/AzureMediaServicesPromo.ism/manifest", type: "application/vnd.ms-sstr+xml" }, ]);
+
+
+
+
+        function _ampEventHandler(evt) {
+            var txtLog = document.getElementById("txtLog");
+
+            if ("timeupdate" !== evt.type) {
+                txtLog.innerHTML += "amp: " + evt.type + "\n";
+            }
+
+            if (amp.eventName.error === evt.type) {
+                txtLog.innerHTML += "amp: " + errorInfo(myPlayer.error()) + "\n";
+            }
+        }
+
+        function errorInfo(err){
+
+            var errMsg = highlevelError(err.code);
+            errMsg += " code: " + err.code.toString(16);
+
+            if (err.message) {
+                errMsg += " msg: " + err.message;
+            }
+
+            return errMsg;
+        }
+
+        function highlevelError(errorCode){
+            var errorDesc;
+            var uiCodeMask = 0xff00000;
+            var uiCode = (errorCode & uiCodeMask) >> 20;
+            switch (uiCode) {
+                case 0:
+                    errorDesc = "MEDIA_ERR_CUSTOM"
+                    break;
+                case 1:
+                    errorDesc = "MEDIA_ERR_ABORTED";
+                    break;
+                case 2:
+                    errorDesc = "MEDIA_ERR_NETWORK";
+                    break;
+                case 3:
+                    errorDesc = "MEDIA_ERR_DECODE";
+                    break;
+                case 4:
+                    errorDesc = "MEDIA_ERR_SRC_NOT_SUPPORTED";
+                    break;
+                case 5:
+                    errorDesc = "MEDIA_ERR_ENCRYPTED";
+                    break;
+                case 6:
+                    errorDesc = "SRC_PLAYER_MISMATCH";
+                    break;
+                default:
+                    errorDesc = "MEDIA_ERR_UNKNOWN";
+            }
+
+            return errorDesc;
+        }
+
+
+    </script>
+    <footer>
+        <br />
+        <p>© Microsoft Corporation 2016</p>
+    </footer>
+</body>
+</html>

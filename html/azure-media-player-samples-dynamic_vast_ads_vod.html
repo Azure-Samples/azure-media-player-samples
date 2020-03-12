@@ -1,0 +1,93 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Azure Media Player</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <  <!--*****START OF Azure Media Player Scripts*****-->
+    <!--Note: DO NOT USE the "latest" folder in production. Replace "latest" with a version number like "1.0.0"-->
+    <!--EX:<script src="//amp.azure.net/libs/amp/1.0.0/azuremediaplayer.min.js"></script>-->
+    <!--Azure Media Player versions can be queried from //aka.ms/ampchangelog-->
+<link href="//amp.azure.net/libs/amp/latest/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+<script src="//amp.azure.net/libs/amp/latest/azuremediaplayer.min.js"></script>
+<!--*****END OF Azure Media Player Scripts*****-->
+
+</head>
+<body>
+    <h1>Sample: Pre- Mid- Post- roll VOD Advertisements </h1>
+    <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" tabindex="0"> </video>
+    <div id="copyrightInfo" class="muted">
+   </div>
+    <script>
+	
+		 var source = { src: "//amssamples.streaming.mediaservices.windows.net/bc57e088-27ec-44e0-ac20-a85ccbcd50da/TearsOfSteel.ism/manifest", type: "application/dash+xml" };
+	
+        var myOptions = {
+            autoplay: true,
+            controls: true,
+            width: "800",
+            height: "500",
+          		ampAds:{
+                preRoll: {
+                    sourceUri: 'http://sr-test.azurewebsites.net/Plugins/AMP2/Preroll_amp/vast_test.xml', //be sure to include your own VAST compliant ad tag provided from your Ad Server. this is a hardcoded VAST for demo purposes 
+                  
+                      options: 
+					{
+                        skipAd: 
+						{
+                            enabled: true,
+                            offset:5
+                        }
+                    }                                
+                },
+                midRoll: [{
+                    sourceUri:'http://sr-test.azurewebsites.net/Plugins/AMP2/Preroll_amp/surface.xml', //be sure to include your own VAST compliant ad tag provided from your Ad Server. this is a hardcoded VAST for demo purposes 
+                  
+                  
+                    startTime: 60,
+
+                    options: 
+					{
+                        skipAd: 
+						{
+                            enabled: true,
+                            offset: 2
+                        }
+                    }
+					},
+					{
+                        sourceUri: 'http://sr-test.azurewebsites.net/Plugins/AMP2/Preroll_amp/ie_browser.xml',//be sure to include your own VAST compliant ad tag provided from your Ad Server. this is a hardcoded VAST for demo purposes 
+                  
+                       
+                        startTime: 60*6
+                    },
+					{
+                    sourceUri: 'http://sr-test.azurewebsites.net/Plugins/AMP2/Preroll_amp/vast_test.xml',//be sure to include your own VAST compliant ad tag provided from your Ad Server. this is a hardcoded VAST for demo purposes 
+                  
+                    startTime: 590
+					}
+				],
+                mainProgram: {
+                    source: source,
+       
+                }
+            }
+        };
+       
+
+           
+			var myPlayer = amp("azuremediaplayer", myOptions);
+           		
+    </script>
+    <footer>
+        <br />
+        <p>© Microsoft Corporation 2016</p>
+    </footer>
+
+</body>
+</html>

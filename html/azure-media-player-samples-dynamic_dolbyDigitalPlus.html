@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Azure Media Player</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!--*****START OF Azure Media Player Scripts*****-->
+        <!--Note: DO NOT USE the "latest" folder in production. Replace "latest" with a version number like "1.0.0"-->
+        <!--EX:<script src="//amp.azure.net/libs/amp/1.0.0/azuremediaplayer.min.js"></script>-->
+        <!--Azure Media Player versions can be queried from //aka.ms/ampchangelog-->
+        <link href="//amp.azure.net/libs/amp/latest/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+        <script src="//amp.azure.net/libs/amp/latest/azuremediaplayer.min.js"></script>
+        <!--*****END OF Azure Media Player Scripts*****-->
+
+</head>
+<body>
+    <h1>Sample: DD+</h1>
+    <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" tabindex="0"> </video>
+    <div>
+    Audio stream playing:  <span id="audioStreamName"></span>
+    </div>
+    <div id="copyrightInfo" class="muted">
+        Silent - &copy; copyright 2014, Dolby Laboratories | <a href="http://www.dolby.com/us/en/dolby/silent-video.html" target="_blank">dolby.com</a>
+    </div>
+    <script>
+        var myOptions = {
+            autoplay: true,
+            controls: true,
+            width: "640",
+            height: "400",
+            skinConfig: {
+                audioTracksMenu: {
+                    enabled: false,
+                    useManifestForLabel: false
+                }
+            }
+
+        };
+        var myPlayer = amp("azuremediaplayer", myOptions);
+        myPlayer.src([{ src: "//amssamples.streaming.mediaservices.windows.net/d499bfae-117a-40ab-9bd4-036cc575fac3/DolbyDigitialPlus.ism/manifest", type: "application/vnd.ms-sstr+xml" }, ]);
+
+        //to change the audio stream at the beginning of playback, listen for the loadedmetadata event
+        //if DD+ is supported, switch streams, otherwise, select the audio default for playback
+        //Note: for increased success, the last audio stream (selected by default) in the manifest should be AAC
+        //Note: Programatic audio stream switching is currently only enabled on AzureHtml5JS and FlashSS
+
+        if (MediaSource.isTypeSupported('audio/mp4; codecs="ec-3"') && myPlayer.currentTechName() == "AzureHtml5JS") {
+            myPlayer.addEventListener(amp.eventName.loadedmetadata, function () {
+                myPlayer.currentAudioStreamList().switchIndex(0);
+            });
+        }
+
+        //Display selected audio stream
+        myPlayer.addEventListener(amp.eventName.playing, function () {
+            for (var i = 0; i < myPlayer.currentAudioStreamList().streams.length; i++) {
+                if (myPlayer.currentAudioStreamList().streams[i].enabled) {
+                    document.getElementById("audioStreamName").innerHTML = myPlayer.currentAudioStreamList().streams[i].name;
+                    break;
+                }
+            }
+        });
+    </script>
+    <footer>
+        <br />
+        <p>© Microsoft Corporation 2016</p>
+    </footer>
+
+</body>
+</html>

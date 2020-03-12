@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Azure Media Player</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!--*****START OF Azure Media Player Scripts*****-->
+        <!--Note: DO NOT USE the "latest" folder in production. Replace "latest" with a version number like "1.0.0"-->
+        <!--EX:<script src="//amp.azure.net/libs/amp/1.0.0/azuremediaplayer.min.js"></script>-->
+        <!--Azure Media Player versions can be queried from //aka.ms/ampchangelog-->
+        <link href="//amp.azure.net/libs/amp/latest/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+        <script src="//amp.azure.net/libs/amp/latest/azuremediaplayer.min.js"></script>
+        <!--*****END OF Azure Media Player Scripts*****-->
+
+</head>
+<body>
+    <h1>Sample: WebVTT Subtitles</h1>
+    <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" tabindex="0"> </video>
+	    <div id="copyrightInfo" class="muted">
+        Tears of Steel video - © Blender Foundation | <a href="http://mango.blender.org/">mango.blender.org</a>
+    </div>
+    <script>
+        var myOptions = {
+            autoplay: true,
+            controls: true,
+            width: "640",
+            height: "400",
+            poster: ""
+        };
+        var myPlayer = amp("azuremediaplayer", myOptions);
+        myPlayer.src(
+            [
+                { src: "//ams-samplescdn.streaming.mediaservices.windows.net/11196e3d-2f40-4835-9a4d-fc52751b0323/TearsOfSteel_WAMEH264SmoothStreaming720p.ism/manifest", type: "application/vnd.ms-sstr+xml" }, 
+            ],
+            [
+                { src: "//ams-samplescdn.streaming.mediaservices.windows.net/11196e3d-2f40-4835-9a4d-fc52751b0323/TOS-en.vtt", srclang: "en", kind: "subtitles", label: "english" },
+                { src: "//ams-samplescdn.streaming.mediaservices.windows.net/11196e3d-2f40-4835-9a4d-fc52751b0323/TOS-es.vtt", srclang: "es", kind: "subtitles", label: "spanish" },
+                { src: "//ams-samplescdn.streaming.mediaservices.windows.net/11196e3d-2f40-4835-9a4d-fc52751b0323/TOS-fr.vtt", srclang: "fr", kind: "subtitles", label: "french" },
+                { src: "//ams-samplescdn.streaming.mediaservices.windows.net/11196e3d-2f40-4835-9a4d-fc52751b0323/TOS-it.vtt", srclang: "it", kind: "subtitles", label: "italian" }
+            ]
+        );
+    </script>
+    <footer>
+        <br />
+        <p>© Microsoft Corporation 2016</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Azure Media Player</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!--*****START OF Azure Media Player Scripts*****-->
+        <!--Note: DO NOT USE the "latest" folder in production. Replace "latest" with a version number like "1.0.0"-->
+        <!--EX:<script src="//amp.azure.net/libs/amp/1.0.0/azuremediaplayer.min.js"></script>-->
+        <!--Azure Media Player versions can be queried from //aka.ms/ampchangelog-->
+        <link href="//amp.azure.net/libs/amp/latest/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+        <script src="//amp.azure.net/libs/amp/latest/azuremediaplayer.min.js"></script>
+        <!--*****END OF Azure Media Player Scripts*****-->
+
+</head>
+<body>
+    <h1>Sample: WebVTT Subtitles</h1>
+    <div id="video">
+        <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" autoplay controls width="640" height="400" poster="" data-setup='{}' tabindex="0">
+            <source src="//amssamples.streaming.mediaservices.windows.net/bc57e088-27ec-44e0-ac20-a85ccbcd50da/TearsOfSteel.ism/manifest" type="application/vnd.ms-sstr+xml" />
+            <track kind="subtitles" src="//amssamples.streaming.mediaservices.windows.net/bc57e088-27ec-44e0-ac20-a85ccbcd50da/TOS-en.vtt" srclang="en" label="English">
+            <track kind="subtitles" src="//amssamples.streaming.mediaservices.windows.net/bc57e088-27ec-44e0-ac20-a85ccbcd50da/TOS-es.vtt" srclang="es" label="Spanish">
+            <track kind="captions" src="//amssamples.streaming.mediaservices.windows.net/bc57e088-27ec-44e0-ac20-a85ccbcd50da/TOS-fr.vtt" srclang="fr" label="French">
+            <track kind="subtitles" src="//amssamples.streaming.mediaservices.windows.net/bc57e088-27ec-44e0-ac20-a85ccbcd50da/TOS-it.vtt" srclang="it" label="Italian">
+            <p class="amp-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
+        </video>
+    </div>
+    <div id="copyrightInfo" class="muted">
+        Tears of Steel video - © Blender Foundation | <a href="http://mango.blender.org/">mango.blender.org</a>
+    </div>
+    <footer>
+        <br />
+        <p>© Microsoft Corporation 2016</p>
+    </footer>
+
+</body>
+</html>
