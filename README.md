@@ -11,7 +11,7 @@ description: "The samples in this repo show how to use the Azure Media Player in
  
 # Azure Media Player Samples
 
-The samples in this repo show how to embed the Azure Media player either dynamically with JavaScript or statically with HTML5 video element attributes.  
+The samples in this repo show how to embed the Azure Media player either dynamically with JavaScript or statically with HTML5 video element attributes.
 
 ## Contents
 
@@ -30,18 +30,7 @@ Outline the file contents of the repository. It helps users navigate the codebas
 
 You can use Azure Media Player to stream videos from Azure Media Services. The samples in this set include basic to advanced configurations (listed below.)
 
-<link href="//amp.azure.net/libs/amp/latest/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
-<script src="//amp.azure.net/libs/amp/latest/azuremediaplayer.min.js"></script>
-
-<h1>Sample: Clear</h1>
-    <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" controls autoplay width="640" height="400" poster="" data-setup='{}' tabindex="0">
-        <source src="//amssamples.streaming.mediaservices.windows.net/3b970ae0-39d5-44bd-b3a3-3136143d6435/AzureMediaServicesPromo.ism/manifest" type="application/vnd.ms-sstr+xml" />
-        <p class="amp-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
-    </video>
-    <footer>
-        <br />
-        <p>&copy; Microsoft Corporation 2016</p>
-    </footer>
+<iframe src="html/azure-media-player--samples-dynamic_setsource.html" width="640" height="320" allowFullScreen="true" frameBorder="0"></iframe>
 
 ## Sample Listing
 
