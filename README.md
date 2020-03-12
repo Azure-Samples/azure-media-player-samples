@@ -34,10 +34,11 @@ You can use Azure Media Player to stream videos from Azure Media Services. The s
 
 ## Sample Listing
 
-| Sample Name | Programmatic via JavaScript | Static via HTML5 | Description |
+| Type | Sample Name | Programmatic via JavaScript | Static via HTML5 | Description |
 |-------------|-------------|-------------|-------------|
-|\4. Basic |
-| Set Source | Dynamic: azure-media-player-samples-dynamic_setsource.html | Static: azure-media-player-samples-videotag_setsource.html) | Playback unprotected content. |
+| Basic | Set Source | Dynamic: azure-media-player-samples-dynamic_setsource.html | Static: azure-media-player-samples-videotag_setsource.html) | Playback unprotected content. |
+| Features | VOD Ad insertion (VAST) | Dynamic: azure-media-player-samples-dynamic_vast_ads_vod.html) | N/A | Insert pre- mid- and post- roll VAST ads into a VOD asset. |
+| | Playback Speed | Dynamic: azure-media-player-samples-dynamic_playback_speed.html | N/A |  Enables viewers to control what speed at which they're watching their video. |
 
 ## Prerequisites
 
