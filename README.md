@@ -36,11 +36,8 @@ You can use Azure Media Player to stream videos from Azure Media Services. The s
 You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azuremediaplayer.html) here.
 
 ## Sample Listing
-<table>
-<col width="">
-<col width="50%">
-<col width="">
-<col width="">
+
+<table width="100%">
 <th>Sample Name</th><th>Description</th><th>Dynamic</th><th>Static</th>
 <tr>
 <td colspan="4"><b>Basic</b></td></tr>
@@ -51,7 +48,8 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 <td colspan="4"><b>Features</b></td>
 </tr>
 <tr>
-<td>VOD Ad insertion (VAST)</td><td>Insert pre- mid- and post- roll VAST ads into a VOD asset</td><td>dynamic_vast_ads_vod.html</td><td>N/A</td>
+<td>VOD Ad insertion (VAST)
+</td><td>Insert pre- mid- and post- roll VAST ads into a VOD asset</td><td>dynamic_vast_ads_vod.html</td><td>N/A</td>
 </tr>
 <tr>
 <td>Playback Speed</td><td>Enables viewers to control what speed at which they're watching their video</td><td>dynamic_playback_speed.html</td><td>N/A</td>
@@ -63,7 +61,7 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 <td>Captions and Subtitles</td><td>Playback with WebVTT subtitles</td><td>dynamic_webvtt.html</td><td>videotag_webvtt.html</td>
 </tr>
 <tr>
-<td>Live CEA 708 Captions</td><td>Playback with live CEA 708 inbound captions</td><td>dynamic_live_captions.html<td></td>N/A</td>
+<td>Live CEA 708 Captions</td><td>Playback with live CEA 708 inbound captions</td><td>dynamic_live_captions.html<td><td>N/A</td>
 </tr>
 <tr>
 <td>Streaming with Progressive Fallback</td><td> Basic setup of adaptive playback with fallback for progressive if streaming not supported on platform</td>
