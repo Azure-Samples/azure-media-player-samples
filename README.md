@@ -20,6 +20,7 @@ Outline the file contents of the repository. It helps users navigate the codebas
 | File/folder       | Description                                |
 |-------------------|--------------------------------------------|
 | `html`            | Azure Media Player embedding samples       |
+| `media`           | folder for animated GIF of player          |
 | `.gitignore`      | Define what to ignore at commit time.      |
 | `CHANGELOG.md`    | List of changes to the sample.             |
 | `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
@@ -32,11 +33,13 @@ You can use Azure Media Player to stream videos from Azure Media Services. The s
 
 ![azure media player screen capture](media/azure-media-player.gif)
 
+You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azuremediaplayer.html) here.
+
 ## Sample Listing
 
 | Type | Sample Name | Dynamic | Static | Description |
 |-------------|-------------|-------------|-------------|-------------|
-| Basic | Set Source | azure-media-player-samples-dynamic_setsource.html | azure-media-player-samples-videotag_setsource.html) | Playback unprotected content. |
+| Basic | Set Source | [azure-media-player-samples-dynamic_setsource.html](html/azure-media-player-samples-dynamic_setsource.html) | [azure-media-player-samples-videotag_setsource.html](azure-media-player-samples-videotag_setsource.html) | Playback unprotected content. |
 | Features | VOD Ad insertion (VAST) | azure-media-player-samples-dynamic_vast_ads_vod.html | N/A | Insert pre- mid- and post- roll VAST ads into a VOD asset. |
 | | Playback Speed | azure-media-player-samples-dynamic_playback_speed.html | N/A |  Enables viewers to control what speed at which they're watching their video. |
 | | AMP Flush Skin | azure-media-player-samples-dynamic_flush_skin.html| azure-media-player-samples-videotag_flush_skin.html | Enables new AMP skin. **Please note: AMP flush is only supported in AMP versions 2.1.0+** |
