@@ -36,7 +36,7 @@ You can use Azure Media Player to stream videos from Azure Media Services. The s
 You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azuremediaplayer.html) here.
 
 ## Sample Listing
-
+<div width="50%">
 <table width="100%">
 <th>Sample Name</th><th>Description</th><th>Dynamic</th><th>Static</th>
 <tr>
@@ -162,6 +162,7 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 <td>Select audio stream</td><td>Selecting a Audio Stream from the list of available audio streams *This sample only works on some techs.*</td><td>dynamic_selectAudioStream.html</td><td>N/A</td>
 </tr>
 </table>
+</div>
 
 ## Prerequisites
 
