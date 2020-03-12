@@ -73,42 +73,6 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 | | Select bitrate | Selecting a bitrate from the list of bitrates *This sample only works on some techs* | azure-media-player-samples-dynamic_selectBitrate.html | N/A |
 | | Select audio stream | Selecting a Audio Stream from the list of available audio streams *This sample only works on some techs.* | azure-media-player-samples-dynamic_selectAudioStream.html | N/A |
 
-## Column Test
-
-:::row:::
-   :::column span="":::
-      **Sample Name**
-   :::column-end:::
-   :::column span="":::
-      **Description**
-   :::column-end:::
-   :::column span="":::
-      **Dynamic**
-   :::column-end:::
-   :::column span="":::
-      **Static**
-   :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="4":::
-      Basic
-   :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="":::
-      Set Source
-   :::column-end:::
-   :::column span="":::
-      Playback unprotected content
-   :::column-end:::
-   :::column span="":::
-      azure-media-player-samples-dynamic_setsource.html
-   :::column-end:::
-   :::column span="":::
-      azure-media-player-samples-videotag_setsource.html
-   :::column-end:::
-:::row-end:::
-
 ## Prerequisites
 
 - Basic knowledge of HTML5.
