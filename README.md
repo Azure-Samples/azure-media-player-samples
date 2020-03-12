@@ -45,123 +45,123 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 <tr>
 <td colspan="4"><b>Basic</b></td></tr>
 <tr>
-<td>Set Source</td><td>Playback unprotected content</td><td>azure-media-player-samples-dynamic_setsource.html</td><td>azure-media-player-samples-videotag_setsource.html</td>
+<td>Set Source</td><td>Playback unprotected content</td><td>dynamic_setsource.html</td><td>videotag_setsource.html</td>
 </tr>
 <tr>
 <td colspan="4"><b>Features</b></td>
 </tr>
 <tr>
-<td>VOD Ad insertion (VAST)</td><td>Insert pre- mid- and post- roll VAST ads into a VOD asset</td><td>azure-media-player-samples-dynamic_vast_ads_vod.html</td><td>N/A</td>
+<td>VOD Ad insertion (VAST)</td><td>Insert pre- mid- and post- roll VAST ads into a VOD asset</td><td>dynamic_vast_ads_vod.html</td><td>N/A</td>
 </tr>
 <tr>
-<td>Playback Speed</td><td>Enables viewers to control what speed at which they're watching their video</td><td>azure-media-player-samples-dynamic_playback_speed.html</td><td>N/A</td>
+<td>Playback Speed</td><td>Enables viewers to control what speed at which they're watching their video</td><td>dynamic_playback_speed.html</td><td>N/A</td>
 </tr>
 <tr>
-<td>AMP Flush Skin</td><td>Enables new AMP skin **Please note: AMP flush is only supported in AMP versions 2.1.0+**</td><td>azure-media-player-samples-dynamic_flush_skin.html</td><td>azure-media-player-samples-videotag_flush_skin.html</td>
+<td>AMP Flush Skin</td><td>Enables new AMP skin **Please note: AMP flush is only supported in AMP versions 2.1.0+**</td><td>dynamic_flush_skin.html</td><td>videotag_flush_skin.html</td>
 </tr>
 <tr>
-<td>Captions and Subtitles</td><td>Playback with WebVTT subtitles</td><td>azure-media-player-samples-dynamic_webvtt.html</td><td>azure-media-player-samples-videotag_webvtt.html</td>
+<td>Captions and Subtitles</td><td>Playback with WebVTT subtitles</td><td>dynamic_webvtt.html</td><td>videotag_webvtt.html</td>
 </tr>
 <tr>
-<td>Live CEA 708 Captions</td><td>Playback with live CEA 708 inbound captions</td><td>azure-media-player-samples-dynamic_live_captions.html<td></td>N/A</td>
+<td>Live CEA 708 Captions</td><td>Playback with live CEA 708 inbound captions</td><td>dynamic_live_captions.html<td></td>N/A</td>
 </tr>
 <tr>
 <td>Streaming with Progressive Fallback</td><td> Basic setup of adaptive playback with fallback for progressive if streaming not supported on platform</td>
-<td>azure-media-player-samples-dynamic_progressiveFallback.html</td><td>azure-media-player-samples-videotag_progressiveFallback.html</td>
+<td>dynamic_progressiveFallback.html</td><td>videotag_progressiveFallback.html</td>
 </tr>
 <tr>
-<td>Progressive Video MP4</td><td>Playback of progressive audio MP4</td><td>azure-media-player-samples-dynamic_progressiveVideo.html</td><td>azure-media-player-samples-videotag_progressiveVideo.html</td>
+<td>Progressive Video MP4</td><td>Playback of progressive audio MP4</td><td>dynamic_progressiveVideo.html</td><td>videotag_progressiveVideo.html</td>
 </tr>
 <tr>
-<td>Progressive Audio MP3</td><td>Playback of progressive audio MP3</td><td>azure-media-player-samples-dynamic_progressiveAudio.html</td><td>azure-media-player-samples-videotag_progressiveAudio.html</td>
+<td>Progressive Audio MP3</td><td>Playback of progressive audio MP3</td><td>dynamic_progressiveAudio.html</td><td>videotag_progressiveAudio.html</td>
 </tr>
 <tr>
-<td>DD+</td><td>Playback of content with DD+ audio</td><td>azure-media-player-samples-dynamic_dolbyDigitalPlus.html</td><td>N/A</td>
+<td>DD+</td><td>Playback of content with DD+ audio</td><td>dynamic_dolbyDigitalPlus.html</td><td>N/A</td>
 </tr>
 <tr>
 <td colspan="4"><b>Options</b></td>
 </tr>
 <tr>
-<td>Heuristic Profile</td><td>Changing the heuristics profile</td><td>azure-media-player-samples-dynamic_heuristicsProfile.html</td><td>azure-media-player-samples-videotag_heuristicsProfile.html</td>
+<td>Heuristic Profile</td><td>Changing the heuristics profile</td><td>dynamic_heuristicsProfile.html</td><td>videotag_heuristicsProfile.html</td>
 </tr>
 <tr>
-<td>Localization</td><td>Setting localization</td><td>azure-media-player-samples-dynamic_localization.html</td><td>azure-media-player-samples-videotag_localization.html</td>
+<td>Localization</td><td>Setting localization</td><td>dynamic_localization.html</td><td>videotag_localization.html</td>
 </tr>
 <tr>
-<td>Audio Tracks Menu</td><td>Options to show how to display audio tracks menu on the default skin</td><td>azure-media-player-samples-dynamic_multiAudio.html</td><td>azure-media-player-samples-videotag_multiAudio.html</td>
+<td>Audio Tracks Menu</td><td>Options to show how to display audio tracks menu on the default skin</td><td>dynamic_multiAudio.html</td><td>videotag_multiAudio.html</td>
 </tr>
 <tr>
-<td>Hotkeys</td><td>This sample shows how to configure which hotkeys are enabled in the player</td><td>azure-media-player-samples-dynamic_hotKeys.html</td><td>azure-media-player-samples-videotag_hotKeys.html</td>
+<td>Hotkeys</td><td>This sample shows how to configure which hotkeys are enabled in the player</td><td>dynamic_hotKeys.html</td><td>videotag_hotKeys.html</td>
 </tr>
 <tr>
 <td colspan="4"><b>Events, Logging and Diagnostics</b></td>
 </tr>
 <tr>
-<td>Register Events</td><td>Playback with event listeners</td><td>azure-media-player-samples-dynamic_registerEvents.html</td><td>N/A</td>
+<td>Register Events</td><td>Playback with event listeners</td><td>dynamic_registerEvents.html</td><td>N/A</td>
 </tr>
 <tr>
-<td>Logging</td><td>Turning on verbose logging to console</td><td>azure-media-player-samples-dynamic_logging.html</td><td>azure-media-player-samples-videotag_logging.html</td>
+<td>Logging</td><td>Turning on verbose logging to console</td><td>dynamic_logging.html</td><td>videotag_logging.html</td>
 </tr>
 <tr>
-<td>Diagnostics</td><td>Getting diagnostic data *This sample only works on some techs*</td><td>azure-media-player-samples-dynamic_diagnostics.html</td><td>N/A</td>
+<td>Diagnostics</td><td>Getting diagnostic data *This sample only works on some techs*</td><td>dynamic_diagnostics.html</td><td>N/A</td>
 </tr>
 <tr>
 <td colspan="4"><b>AES</b></td>
 </tr>
 <tr>
-<td>AES no token</td><td>Playback of AES content with no token</td><td>azure-media-player-samples-dynamic_aes_notoken.html</td><td>azure-media-player-samples-videotag_aes_notoken.html</td>
+<td>AES no token</td><td>Playback of AES content with no token</td><td>dynamic_aes_notoken.html</td><td>videotag_aes_notoken.html</td>
 </tr>
 <tr>
-<td>AES token</td><td>Playback of AES content with token</td><td>azure-media-player-samples-dynamic_aes_token.html</td><td>azure-media-player-samples-videotag_aes_token.html</td>
+<td>AES token</td><td>Playback of AES content with token</td><td>dynamic_aes_token.html</td><td>videotag_aes_token.html</td>
 </tr>
 <tr>
-<td>AES HLS proxy simulation</td><td>Playback of AES content with token, showing a proxy for HLS so that token can be used with iOS devices</td><td>azure-media-player-samples-dynamic_aes_token_withHLSProxy.html</td>
-<td>azure-media-player-samples-videotag_aes_token_withHLSProxy.html</td>
+<td>AES HLS proxy simulation</td><td>Playback of AES content with token, showing a proxy for HLS so that token can be used with iOS devices</td><td>dynamic_aes_token_withHLSProxy.html</td>
+<td>videotag_aes_token_withHLSProxy.html</td>
 </tr>
 <tr>
-<td>AES token force flash</td><td>Playback of AES content with token, forcing the flashSS tech</td><td>azure-media-player-samples-dynamic_aes_token_forceFlash.html</td><td>azure-media-player-samples-videotag_aes_token_forceFlash.html</td>
+<td>AES token force flash</td><td>Playback of AES content with token, forcing the flashSS tech</td><td>dynamic_aes_token_forceFlash.html</td><td>videotag_aes_token_forceFlash.html</td>
 </tr>
 <tr>
 <td colspan="4"><b>DRM</b></td>
 </tr>
 <tr>
-<td>Multi-DRM with PlayReady, Widevine, and FairPlay</td><td>Playback of DRM content with no token, with PlayReady, Widevine, and FairPlay headers</td><td>azure-media-player-samples-dynamic_multiDRM_PlayReadyWidevineFairPlay_notoken.html</td><td>videotag_multiDRM_PlayReadyWidevineFairPlay_notoken.html</td>
+<td>Multi-DRM with PlayReady, Widevine, and FairPlay</td><td>Playback of DRM content with no token, with PlayReady, Widevine, and FairPlay headers</td><td>dynamic_multiDRM_PlayReadyWidevineFairPlay_notoken.html</td><td>videotag_multiDRM_PlayReadyWidevineFairPlay_notoken.html</td>
 </tr>
 <tr>
-<td>PlayReady no token</td><td>Playback of PlayReady content with no token</td><td>azure-media-player-samples-dynamic_playready_notoken.html</td><td>Static: videotag_playready_notoken.html</td>
+<td>PlayReady no token</td><td>Playback of PlayReady content with no token</td><td>dynamic_playready_notoken.html</td><td>Static: videotag_playready_notoken.html</td>
 </tr>
 <tr>
-<td>PlayReady no token force Silverlight</td><td>Playback of PlayReady content with no token, forcing silverlightSS tech</td><td>azure-media-player-samples-dynamic_playready_notoken_forceSilverlight.html</td><td>videotag_playready_notoken_forceSilverlight.html</td>
+<td>PlayReady no token force Silverlight</td><td>Playback of PlayReady content with no token, forcing silverlightSS tech</td><td>dynamic_playready_notoken_forceSilverlight.html</td><td>videotag_playready_notoken_forceSilverlight.html</td>
 </tr>
 <tr>
-<td>PlayReady token</td><td>Playback of PlayReady content with token</td><td>azure-media-player-samples-dynamic_playready_token.html</td><td>videotag_playready_token.html</td>
+<td>PlayReady token</td><td>Playback of PlayReady content with token</td><td>dynamic_playready_token.html</td><td>videotag_playready_token.html</td>
 </tr>
 <tr>
-<td>PlayReady token force Silverlight</td><td>Playback of PlayReady content with token, forcing silverlightSS tech</td><td>azure-media-player-samples-dynamic_playready_token_forceSilverlight.html</td><td>videotag_playready_token_forceSilverlight.html</td>
+<td>PlayReady token force Silverlight</td><td>Playback of PlayReady content with token, forcing silverlightSS tech</td><td>dynamic_playready_token_forceSilverlight.html</td><td>videotag_playready_token_forceSilverlight.html</td>
 </tr>
 <tr>
-<td colspan="4"><b>Protocol and Tech</b></td><td>Change techOrder</td><td>Changing the tech order</td><td>azure-media-player-samples-dynamic_techOrder.html</td><td>videotag_techOrder.html</td>
+<td colspan="4"><b>Protocol and Tech</b></td><td>Change techOrder</td><td>Changing the tech order</td><td>dynamic_techOrder.html</td><td>videotag_techOrder.html</td>
 </tr>
 <tr>
-<td>Force MPEG-DASH only in UrlRewriter</td><td>Playback of unprotected content only using the DASH protocol</td><td>azure-media-player-samples-dynamic_forceDash.html</td><td>videotag_forceDash.html</td>
+<td>Force MPEG-DASH only in UrlRewriter</td><td>Playback of unprotected content only using the DASH protocol</td><td>dynamic_forceDash.html</td><td>videotag_forceDash.html</td>
 </tr>
 <tr>
-<td>Exclude MPEG-DASH in UrlRewriter</td><td>Playback of unprotected content only using the Smooth and HLS protocols</td><td>azure-media-player-samples-dynamic_forceNoDash.html</td><td>videotag_forceNoDash.html</td>
+<td>Exclude MPEG-DASH in UrlRewriter</td><td>Playback of unprotected content only using the Smooth and HLS protocols</td><td>dynamic_forceNoDash.html</td><td>videotag_forceNoDash.html</td>
 </tr>
 <tr>
-<td>Multiple delivery policy</td><td>Setting the source with content that has multiple delivery policies from Azure Media Services</td><td>azure-media-player-samples-dynamic_multipleDeliveryPolicy.html</td><td>videotag_multipleDeliveryPolicy.html</td>
+<td>Multiple delivery policy</td><td>Setting the source with content that has multiple delivery policies from Azure Media Services</td><td>dynamic_multipleDeliveryPolicy.html</td><td>videotag_multipleDeliveryPolicy.html</td>
 </tr>
 <tr>
 <td colspan="4"><b>Programatically Select</b></td>
 </tr>
 <tr>
-<td>Select text track</td><td>Selecting a WebVTT track from the from the track list</td><td>azure-media-player-samples-dynamic_selectTextTrack.html</td><td>N/A</td>
+<td>Select text track</td><td>Selecting a WebVTT track from the from the track list</td><td>dynamic_selectTextTrack.html</td><td>N/A</td>
 </tr>
 <tr>
-<td>Select bitrate</td><td>Selecting a bitrate from the list of bitrates *This sample only works on some techs*</td><td>azure-media-player-samples-dynamic_selectBitrate.html</td><td>N/A</td>
+<td>Select bitrate</td><td>Selecting a bitrate from the list of bitrates *This sample only works on some techs*</td><td>dynamic_selectBitrate.html</td><td>N/A</td>
 </tr>
 <tr>
-<td>Select audio stream</td><td>Selecting a Audio Stream from the list of available audio streams *This sample only works on some techs.*</td><td>azure-media-player-samples-dynamic_selectAudioStream.html</td><td>N/A</td>
+<td>Select audio stream</td><td>Selecting a Audio Stream from the list of available audio streams *This sample only works on some techs.*</td><td>dynamic_selectAudioStream.html</td><td>N/A</td>
 </tr>
 </table>
 
