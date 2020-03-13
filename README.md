@@ -58,7 +58,7 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 | Audio Tracks Menu<br/>Options to show how to display audio tracks menu on the default skin. | **Dynamic:** dynamic_multiAudio.html<br/>**Static:** videotag_multiAudio.html |
 | Hotkeys<br/>This sample shows how to configure which hotkeys are enabled in the player | **Dynamic:** dynamic_hotKeys.html<br/>**Static:** videotag_hotKeys.html  |
 | **Events, Logging and Diagnostics**             | |
-| Register Events<br/>Playback with event listeners.  **Dynamic:** dynamic_registerEvents.html<br/>**Static:** videotag_registerEvents.html |
+| Register Events<br/>Playback with event listeners. | **Dynamic:** dynamic_registerEvents.html<br/>**Static:** videotag_registerEvents.html |
 | Logging<br/>Turn on verbose logging to the console. | **Dynamic:** dynamic_logging.html<br/>**Static:** videotag_logging.html |
 | Diagnostics<br/>Get diagnostic data.<br/> *This sample only works on some techs.* | **Dynamic:** dynamic_diagnostics.htnml<br/>**Static:** N/A |
 | **AES** |  |
@@ -81,6 +81,10 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 | Select Text Track<br/>Select a WebVTT track from the from the track list. | **Dynamic:** dynamic_selectTextTrack.html<br/>**Static:** N/A |
 | Select Bitrate<br/>Selecting a bitrate from the list of bitrates. *This sample only works on some techs.* | **Dynamic:** dynamic_selectBitrate.html<br/>**Static:** N/A |
 | Select Audio Stream<br/>Selecting an audio stream from the list of available audio streams. *This sample only works on some techs.* | **Dynamic:** <br/>**Static:** N/A |
+
+| | |
+|---|---|
+| DRM<br/>Multi-DRM with PlayReady, Widevine, and FairPlay | **Dynamic:** dynamic_multiDRM_PlayReadyWidevineFairPlay_notoken.html<br/>**Static:** videotag_multiDRM_PlayReadyWidevineFairPlay_notoken.html  |
 
 ## Prerequisites
 
