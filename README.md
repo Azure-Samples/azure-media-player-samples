@@ -65,11 +65,11 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 | AES no token<br/>Playback of AES content with no token. | **Dynamic:** dynamic_aes_notoken.html<br/>**Static:** videotag_aes_notoken.html |
 | AES token<br/>Playback of AES content with token. | **Dynamic:** dynamic_aes_token.html<br/>**Static:** videotag_aes_token.html |
 | AES HLS proxy simulation<br/>Playback of AES content with token, showing<br/> a proxy for HLS so that token<br/> can be used with iOS devices. | **Dynamic:** dynamic_aes_token_withHLSProxy.html<br/>**Static:** videotag_aes_token_withHLSProxy.html |
-| AES token force flash<br/>Playback of AES content with token, forcing the flashSS tech. | **Dynamic:** dynamic_aes_token_forceFlash.html<br/>**Static:** videotag_aes_token_forceFlash.html |
+| AES token force flash<br/>Playback of AES content with token,<br/>forcing the flashSS tech. | **Dynamic:** dynamic_aes_token_forceFlash.html<br/>**Static:** videotag_aes_token_forceFlash.html |
 | **DRM** |  |
 | DRM<br/>Multi-DRM with PlayReady, Widevine, and<br/>FairPlay | **Dynamic:** dynamic_multiDRM_PlayReadyWidevineFairPlay_notoken.html<br/>**Static:** videotag_multiDRM_PlayReadyWidevineFairPlay_notoken.html  |
 | PlayReady no token<br/>Playback of PlayReady content with no token. | **Dynamic:** dynamic_playready_notoken.html<br/>**Static:** videotag_playready_notoken.html  |
-| PlayReady no token force Silverlight<br/>Playback of PlayReady content with no token, forcing silverlightSS tech. | **Dynamic:** dynamic_playready_notoken_forceSilverlight.html<br/>**Static:** videotag_playready_notoken_forceSilverlight.html |
+| PlayReady no token force Silverlight<br/>Playback of PlayReady content with no token,<br/>forcing silverlightSS tech. | **Dynamic:** dynamic_playready_notoken_forceSilverlight.html<br/>**Static:** videotag_playready_notoken_forceSilverlight.html |
 | PlayReady token<br/>Playback of PlayReady content with token. | **Dynamic:** dynamic_playready_token.html<br/>**Static:** videotag_playready_token.html |
 | PlayReady token force Silverlight<br/>Playback of PlayReady content with token,<br/> forcing silverlightSS tech. | **Dynamic:** dynamic_playready_token_forceSilverlight.html<br/>**Static:** videotag_playready_token_forceSilverlight.html  |
 | **Protocol and Tech** |  |
