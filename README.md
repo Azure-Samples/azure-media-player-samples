@@ -37,7 +37,7 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 
 ## Sample Listing
 
-<table width="500">
+<table style="width: 400px;">
 <tbody>
 <tr>
 <th>
