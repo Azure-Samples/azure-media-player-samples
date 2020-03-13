@@ -48,7 +48,7 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 | AMP Flush Skin<br/>Enables new AMP skin.<br/>*Please note: AMP flush is only supported in<br/> AMP versions 2.1.0+* | **Dynamic:** dynamic_flush_skin.html <br/>**Static:** videotag_flush_skin.html  |
 | Captions and Subtitles<br/>Playback with WebVTT subtitles. | **Dynamic:** dynamic_webvtt.html <br/>**Static:** videotag_webvtt.html |
 | Live CEA 708 Captions<br/>Playback with live CEA 708 inbound<br> captions with the captions left-aligned. | **Dynamic:** dynamic_live_captions.html<br/>**Static:** N/A  |
-| Streaming with Progressive Fallback<br/>Basic setup of adaptive playback with<br>fallback for progressive if streaming not supported<br/>on platform. | **Dynamic:** dynamic_progressiveFallback.html<br/>**Static:** videotag_progressiveFallback.html  |
+| Streaming with Progressive Fallback<br/>Basic setup of adaptive playback with<br>fallback for progressive if streaming<br/>not supported on platform. | **Dynamic:** dynamic_progressiveFallback.html<br/>**Static:** videotag_progressiveFallback.html  |
 | Progressive Video MP4<br/>Playback of progressive MP4 video. | **Dynamic:** dynamic_progressiveVideo.html <br/>**Static:** videotag_progressiveVideo.html |
 | Progressive Audio MP3<br/>Playback of progressive audio MP3. | **Dynamic:** dynamic_progressiveAudio.html<br/>**Static:** videotag_progressiveAudio.html  |
 | DD+<br/>Playback of content with DD+ audio. | **Dynamic:** dynamic_dolbyDigitalPlus.html<br/>**Static:** N/A  |
@@ -78,9 +78,9 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 | Exclude MPEG-DASH in UrlRewriter<br/>Playback of unprotected content only using<br/> the Smooth and HLS protocols. | **Dynamic:** dynamic_forceNoDash.html<br/>**Static:** videotag_forceNoDash.html |
 | Multiple Delivery Policy<br/>Setting the source with content that has<br/>multiple delivery policies from<br/>Azure Media Services | **Dynamic:** dynamic_multipleDeliveryPolicy.html<br/>**Static:** videotag_multipleDeliveryPolicy.html  |
 | **Programatically Select** | |
-| Select Text Track<br/>Select a WebVTT track from the from the track list. | **Dynamic:** dynamic_selectTextTrack.html<br/>**Static:** N/A |
+| Select Text Track<br/>Select a WebVTT track from the from<br/>the track list. | **Dynamic:** dynamic_selectTextTrack.html<br/>**Static:** N/A |
 | Select Bitrate<br/>Selecting a bitrate from the list of bitrates.<br/> *This sample only works on some techs.* | **Dynamic:** dynamic_selectBitrate.html<br/>**Static:** N/A |
-| Select Audio Stream<br/>Selecting an audio stream from the list of available audio streams. *This sample only works on some techs.* | **Dynamic:**dynamic_selectAudioStream.html <br/>**Static:** N/A |
+| Select Audio Stream<br/>Selecting an audio stream from the list of<br/>available audio streams.<br/>*This sample only works on some techs.* | **Dynamic:** dynamic_selectAudioStream.html <br/>**Static:** N/A |
 
 ## Prerequisites
 
