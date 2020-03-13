@@ -44,10 +44,10 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 Sample Name
 </th>
 <th>
-Programatic via JavaScript
+Dynamic
 </th>
 <th>
-Static via HTML5 <code>video</code>
+Static
 </th>
 <th>
 Description
