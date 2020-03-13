@@ -43,20 +43,20 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 | **Basic**                                       | |
 | Set Source <br/>Playback unprotected content. | **Dynamic:** dynamic_setsource.html<br/>**Static:** videotag_setsource.html |
 | **Features**                                    | |
-| VOD Ad insertion - VAST<br/>Insert pre- mid-<br/>and post- roll VAST ads into a VOD asset. | **Dynamic:** dynamic_vast_ads_vod.html<br/>**Static:** N/A |
-| Playback Speed<br/>Enables viewers to control what the speed<br/> of the video. | **Dynamic:** dynamic_playback_speed.html <br/>**Static:** N/A  |
+| VOD Ad insertion - VAST<br/>Insert pre- mid-and post- roll VAST ads<br/>into a VOD asset. | **Dynamic:** dynamic_vast_ads_vod.html<br/>**Static:** N/A |
+| Playback Speed<br/>Enables viewers to control what the<br/>speed of the video. | **Dynamic:** dynamic_playback_speed.html <br/>**Static:** N/A  |
 | AMP Flush Skin<br/>Enables new AMP skin.<br/>*Please note: AMP flush is only supported in<br/> AMP versions 2.1.0+* | **Dynamic:** dynamic_flush_skin.html <br/>**Static:** videotag_flush_skin.html  |
 | Captions and Subtitles<br/>Playback with WebVTT subtitles. | **Dynamic:** dynamic_webvtt.html <br/>**Static:** videotag_webvtt.html |
-| Live CEA 708 Captions<br/>Playback with live<br>CEA 708 inbound captions with the captions<br/> left-aligned. | **Dynamic:** dynamic_live_captions.html<br/>**Static:** N/A  |
-| Streaming with Progressive Fallback<br/>Basic setup of adaptive playback with fallback<br/> for progressive if streaming not supported<br/>on platform. | **Dynamic:** dynamic_progressiveFallback.html<br/>**Static:** videotag_progressiveFallback.html  |
+| Live CEA 708 Captions<br/>Playback with live CEA 708 inbound<br> captions with the captions left-aligned. | **Dynamic:** dynamic_live_captions.html<br/>**Static:** N/A  |
+| Streaming with Progressive Fallback<br/>Basic setup of adaptive playback with<br>fallback for progressive if streaming not supported<br/>on platform. | **Dynamic:** dynamic_progressiveFallback.html<br/>**Static:** videotag_progressiveFallback.html  |
 | Progressive Video MP4<br/>Playback of progressive MP4 video. | **Dynamic:** dynamic_progressiveVideo.html <br/>**Static:** videotag_progressiveVideo.html |
 | Progressive Audio MP3<br/>Playback of progressive audio MP3. | **Dynamic:** dynamic_progressiveAudio.html<br/>**Static:** videotag_progressiveAudio.html  |
 | DD+<br/>Playback of content with DD+ audio. | **Dynamic:** dynamic_dolbyDigitalPlus.html<br/>**Static:** N/A  |
 | **Options**                                     | |
 | Heuristic Profile<br/>Change the heuristics profile | **Dynamic:** dynamic_heuristicsProfile.html<br/>**Static:** videotag_heuristicsProfile.html |
 | Localization<br/>Set localization           | **Dynamic:** dynamic_localization.html<br/>**Static:** videotag_localization.html  |
-| Audio Tracks Menu<br/>Options to show how to display audio tracks<br/> menu on the default skin. | **Dynamic:** dynamic_multiAudio.html<br/>**Static:** videotag_multiAudio.html |
-| Hotkeys<br/>This sample shows how to configure which<br/> hotkeys are enabled in the player | **Dynamic:** dynamic_hotKeys.html<br/>**Static:** videotag_hotKeys.html  |
+| Audio Tracks Menu<br/>Options to show how to display audio<br>tracks menu on the default skin. | **Dynamic:** dynamic_multiAudio.html<br/>**Static:** videotag_multiAudio.html |
+| Hotkeys<br/>This sample shows how to configure which<br/>hotkeys are enabled in the player | **Dynamic:** dynamic_hotKeys.html<br/>**Static:** videotag_hotKeys.html  |
 | **Events, Logging and Diagnostics**             | |
 | Register Events<br/>Playback with event listeners. | **Dynamic:** dynamic_registerEvents.html<br/>**Static:** videotag_registerEvents.html |
 | Logging<br/>Turn on verbose logging to the console. | **Dynamic:** dynamic_logging.html<br/>**Static:** videotag_logging.html |
@@ -64,7 +64,7 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 | **AES** |  |
 | AES no token<br/>Playback of AES content with no token. | **Dynamic:** dynamic_aes_notoken.html<br/>**Static:** videotag_aes_notoken.html |
 | AES token<br/>Playback of AES content with token. | **Dynamic:** dynamic_aes_token.html<br/>**Static:** videotag_aes_token.html |
-| AES HLS proxy simulation<br/>Playback of AES content with token, showing<br/> a proxy for HLS so that token<br/> can be used with iOS devices. | **Dynamic:** dynamic_aes_token_withHLSProxy.html<br/>**Static:** videotag_aes_token_withHLSProxy.html |
+| AES HLS proxy simulation<br/>Playback of AES content with token,<br>showing a proxy for HLS so that token<br/> can be used with iOS devices. | **Dynamic:** dynamic_aes_token_withHLSProxy.html<br/>**Static:** videotag_aes_token_withHLSProxy.html |
 | AES token force flash<br/>Playback of AES content with token,<br/>forcing the flashSS tech. | **Dynamic:** dynamic_aes_token_forceFlash.html<br/>**Static:** videotag_aes_token_forceFlash.html |
 | **DRM** |  |
 | DRM<br/>Multi-DRM with PlayReady, Widevine, and<br/>FairPlay | **Dynamic:** dynamic_multiDRM_PlayReadyWidevineFairPlay_notoken.html<br/>**Static:** videotag_multiDRM_PlayReadyWidevineFairPlay_notoken.html  |
