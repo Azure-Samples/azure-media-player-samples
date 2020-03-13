@@ -37,102 +37,32 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 
 ## Sample Listing
 
-<table style="width: 400px;">
-<tbody>
-<tr>
-<th>
-Sample Name
-</th>
-<th>
-Dynamic
-</th>
-<th>
-Static
-</th>
-<th>
-Description
-</th>
-</tr>
-<tr>
-<th style="font:bold;text-align:left" colspan="4">
-Basic
-</th>
-</tr>
-<tr>
-<td>
-Set Source
-</td>
-<td>
-dynamic_setsource.html
-</td>
-<td>
-videotag_setsource.html
-</td>
-<td>
-Playback unprotected content.
-</td>
-</tr>
-<tr>
-<th style="font:bold;text-align:left" colspan="4">
-Features
-</th>
-</tr>
-<tr>
-<td>
-VOD Ad insertion - VAST
-</td>
-<td>
-dynamic_vast_ads_vod.html
-</td>
-<td>
-N/A
-</td>
-<td>
-Insert pre- mid- and post- roll VAST ads into a VOD asset.
-</td>
-</tr>
-<tr>
-<td>
-Playback Speed
-</td>
-<td>
-dynamic_playback_speed.html
-</td>
-<td>
-N/A
-</td>
-<td>
-Enables viewers to control what speed they're watching their video at.
-</td>
-</tr>
-<tr>
-<td>
-AMP Flush Skin
-</td>
-<td>
-dynamic_flush_skin.html
-</td>
-<td>
-videotag_flush_skin.html
-</td>
-<td>
-Enables new AMP skin. <strong>Please note: AMP flush is only supported in AMP versions 2.1.0+</strong>
-</td>
-</tr>
-<tr>
-<td>
-Captions and Subtitles
-</td>
-<td>
-dynamic_webvtt.html
-</td>
-<td>
-videotag_webvtt.html
-</td>
-<td>
-Playback with WebVTT subtitles.
-</td>
-</tr>
+
+| Sample Name and Description                     | File Name                                                             |
+|-------------------------------------------------|:----------------------------------------------------------------------|
+| **Basic**                                           |                                                                       |
+| Set Source <br/>Playback unprotected content. | **Dynamic:** dynamic_setsource.html<br/>**Static:** videotag_setsource.html |
+| Features                                        |                                                                       |
+| VOD Ad insertion - VAST<br/>Insert pre- mid-<br/>and post- roll VAST ads into a VOD asset. | **Dynamic:** dynamic_vast_ads_vod.html<br/>**Static:** N/A |
+| Playback Speed<br/>Enables viewers to control what the speed of the video. | **Dynamic:** dynamic_playback_speed.html <br/>**Static:** N/A  |
+| AMP Flush Skin<br/>Enables new AMP skin.<br/>*Please note: AMP flush is only supported in AMP versions 2.1.0+* | **Dynamic:** dynamic_flush_skin.html <br/>**Static:** videotag_flush_skin.html  |
+| Captions and Subtitles<br/>Playback with WebVTT subtitles. | **Dynamic:** dynamic_webvtt.html <br/>**Static:** videotag_webvtt.html |
+| Live CEA 708 Captions<br/>Playback with live<br>CEA 708 inbound captions with the captions left-aligned. | **Dynamic:** dynamic_live_captions.html<br/>**Static:** N/A  |
+|                                                 | **Dynamic:** <br/>**Static:**  |
+|                                                 | **Dynamic:** <br/>**Static:**  |
+|                                                 | **Dynamic:** <br/>**Static:**  |
+|                                                 | **Dynamic:** <br/>**Static:**  |
+|                                                 | **Dynamic:** <br/>**Static:**  |
+|                                                 | **Dynamic:** <br/>**Static:**  |
+|                                                 | **Dynamic:** <br/>**Static:**  |
+|                                                 | **Dynamic:** <br/>**Static:**  |
+|                                                 | **Dynamic:** <br/>**Static:**  |
+|                                                 | **Dynamic:** <br/>**Static:**  |
+|                                                 | **Dynamic:** <br/>**Static:**  |
+|                                                 | **Dynamic:** <br/>**Static:**  |
+|                                                 | **Dynamic:** <br/>**Static:**  |
+
+<table>
 <tr>
 <td>
 Live CEA 708 Captions
