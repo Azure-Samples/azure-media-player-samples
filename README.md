@@ -76,7 +76,7 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 | Change techOrder<br/>Change the tech order | **Dynamic:** dynamic_techOrder.html<br/>**Static:** videotag_techOrder.html |
 | Force MPEG-DASH only in UrlRewriter<br/>Playback of unprotected content only using<br/> the DASH protocol. | **Dynamic:** dynamic_forceDash.html<br/>**Static:** videotag_forceDash.html  |
 | Exclude MPEG-DASH in UrlRewriter<br/>Playback of unprotected content only using<br/> the Smooth and HLS protocols. | **Dynamic:** dynamic_forceNoDash.html<br/>**Static:** videotag_forceNoDash.html |
-| Multiple delivery policy<br/>Setting the source with content that has<br/>multiple delivery policies from Azure Media Services | **Dynamic:** dynamic_multipleDeliveryPolicy.html<br/>**Static:** videotag_multipleDeliveryPolicy.html  |
+| Multiple Delivery Policy<br/>Setting the source with content that has<br/>multiple delivery policies from<br/>Azure Media Services | **Dynamic:** dynamic_multipleDeliveryPolicy.html<br/>**Static:** videotag_multipleDeliveryPolicy.html  |
 | **Programatically Select** | |
 | Select Text Track<br/>Select a WebVTT track from the from the track list. | **Dynamic:** dynamic_selectTextTrack.html<br/>**Static:** N/A |
 | Select Bitrate<br/>Selecting a bitrate from the list of bitrates.<br/> *This sample only works on some techs.* | **Dynamic:** dynamic_selectBitrate.html<br/>**Static:** N/A |
