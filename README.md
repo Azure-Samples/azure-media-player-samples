@@ -84,7 +84,7 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 
 | | |
 |---|---|
-| DRM<br/>Multi-DRM with PlayReady, Widevine,<br/>and FairPlay | **Dynamic:** dynamic_multiDRM_PlayReadyWidevineFairPlay_notoken.html<br/>**Static:** videotag_multiDRM_PlayReadyWidevineFairPlay_notoken.html  |
+| DRM<br/>Multi-DRM with PlayReady, Widevine, and<br/>FairPlay | **Dynamic:** dynamic_multiDRM_PlayReadyWidevineFairPlay_notoken.html<br/>**Static:** videotag_multiDRM_PlayReadyWidevineFairPlay_notoken.html  |
 
 ## Prerequisites
 
