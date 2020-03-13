@@ -67,7 +67,7 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 | AES HLS proxy simulation<br/>Playback of AES content with token, showing a proxy for HLS so that token can be used with iOS devices. | **Dynamic:** dynamic_aes_token_withHLSProxy.html<br/>**Static:** videotag_aes_token_withHLSProxy.html |
 | AES token force flash<br/>Playback of AES content with token, forcing the flashSS tech. | **Dynamic:** dynamic_aes_token_forceFlash.html<br/>**Static:** videotag_aes_token_forceFlash.html |
 | **DRM** |  |
-| DRM<br/>Multi-DRM with PlayReady, Widevine, and FairPlay | **Dynamic:** dynamic_multiDRM_PlayReadyWidevineFairPlay_notoken.html<br/>**Static:** videotag_multiDRM_PlayReadyWidevineFairPlay_notoken.html  |
+| DRM<br/>Multi-DRM with PlayReady, Widevine, and<br/>FairPlay | **Dynamic:** dynamic_multiDRM_PlayReadyWidevineFairPlay_notoken.html<br/>**Static:** videotag_multiDRM_PlayReadyWidevineFairPlay_notoken.html  |
 | PlayReady no token<br/>Playback of PlayReady content with no token. | **Dynamic:** dynamic_playready_notoken.html<br/>**Static:** videotag_playready_notoken.html  |
 | PlayReady no token force Silverlight<br/>Playback of PlayReady content with no token, forcing silverlightSS tech. | **Dynamic:** dynamic_playready_notoken_forceSilverlight.html<br/>**Static:** videotag_playready_notoken_forceSilverlight.html |
 | PlayReady token<br/>Playback of PlayReady content with token. | **Dynamic:** dynamic_playready_token.html<br/>**Static:** videotag_playready_token.html |
@@ -82,9 +82,6 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 | Select Bitrate<br/>Selecting a bitrate from the list of bitrates. *This sample only works on some techs.* | **Dynamic:** dynamic_selectBitrate.html<br/>**Static:** N/A |
 | Select Audio Stream<br/>Selecting an audio stream from the list of available audio streams. *This sample only works on some techs.* | **Dynamic:** <br/>**Static:** N/A |
 
-| | |
-|---|---|
-| DRM<br/>Multi-DRM with PlayReady, Widevine, and<br/>FairPlay | **Dynamic:** dynamic_multiDRM_PlayReadyWidevineFairPlay_notoken.html<br/>**Static:** videotag_multiDRM_PlayReadyWidevineFairPlay_notoken.html  |
 
 ## Prerequisites
 
