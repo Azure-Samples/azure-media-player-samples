@@ -21,6 +21,7 @@ Outline the file contents of the repository. It helps users navigate the codebas
 |-------------------|--------------------------------------------|
 | `html`            | Azure Media Player embedding samples       |
 | `media`           | folder for animated GIF of player          |
+| `typescript`      | Typescript file                            |
 | `.gitignore`      | Define what to ignore at commit time.      |
 | `CHANGELOG.md`    | List of changes to the sample.             |
 | `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
@@ -36,7 +37,6 @@ You can use Azure Media Player to stream videos from Azure Media Services. The s
 You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azuremediaplayer.html) here.
 
 ## Sample Listing
-
 
 | Sample Name and Description                     | File Name                                                             |
 |-------------------------------------------------|:----------------------------------------------------------------------|
