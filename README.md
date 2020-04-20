@@ -8,6 +8,8 @@ products:
   - azure-media-player
 description: "The samples in this repo show how to use the Azure Media Player in multiple scenarios."  
 ---
+<link href="//amp.azure.net/libs/amp/latest/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+<script src="//amp.azure.net/libs/amp/latest/azuremediaplayer.min.js"></script>
  
 # Azure Media Player Samples
 
