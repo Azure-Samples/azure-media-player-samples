@@ -41,7 +41,7 @@ You can view the Azure Media Player [demo](https://ampdemo.azureedge.net/azureme
 | Sample Name and Description                     | File Name                                                             |
 |-------------------------------------------------|:----------------------------------------------------------------------|
 | **Basic**                                       | |
-| Set Source <br/>Playback unprotected content. | **Dynamic:** [dynamic_setsource.html](https://amp.azure.net/libs/amp/latest/samples/dynamic_setsource.html)<br/>**Static:** videotag_setsource.html |
+| Set Source <br/>Playback unprotected content. | **Dynamic:** dynamic_setsource.html<br/>**Static:** videotag_setsource.html |
 | **Features**                                    | |
 | VOD Ad insertion - VAST<br/>Insert pre- mid-and post- roll VAST ads<br/>into a VOD asset. | **Dynamic:** dynamic_vast_ads_vod.html<br/>**Static:** N/A |
 | Playback Speed<br/>Enables viewers to control what the<br/>speed of the video. | **Dynamic:** dynamic_playback_speed.html <br/>**Static:** N/A  |
