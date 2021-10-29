@@ -21,7 +21,7 @@ Outline the file contents of the repository. It helps users navigate the codebas
 |-------------------|--------------------------------------------|
 | `html`            | Azure Media Player embedding samples       |
 | `media`           | folder for animated GIF of player          |
-| `typescript`      | Typescript file                            |
+| `typescript`      | TypeScript file                            |
 | `.gitignore`      | Define what to ignore at commit time.      |
 | `CHANGELOG.md`    | List of changes to the sample.             |
 | `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
